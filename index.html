@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Prank Your Mom</title>
+</head>
+<body>
+    <!-- Hero -->
+    <form action="Form" method="post">
+        <div class="hero">
+            <h1 id="headline">Prank Your Mom!</h1>
+            <h3>Welcome to the "Prank Your Mom" signup</h3>
+        </div>
+            <!-- Personel Info -->
+        <div class="info">
+            <div class="PersonalInfo">
+                <h2 id="personaldetails">Personal Details</h2><br>
+                <label for="fullname">Name</label>
+                <input type="text" placeholder="Full Name Here Please" required><br>
+                
+                <label for="Email">Email Address</label>
+                <input type="email" name="email" id="email" required><br>
+
+                <label for="personalNumber">Phonenumber</label>
+                <input type="tel" class="phone" name="phone" required>
+            </div>
+            <!-- Info about mom -->
+            <div class="MomInfo">
+                <h2>Info About You Mommy</h2><br>
+                <label for="momsName">Your Mommy name</label>
+                <input type="text" placeholder="Your mum's Name Here" required><br>
+
+                <label for="momsNumber">Phonenumber</label>
+                <input type="tel" class="phone" name="phone"><br>
+
+                <label for="Address">Address</label>
+                <input type="text">
+            </div>
+        </div>
+        <div class="midsection">
+            <!-- Choose Date -->
+            <div class="DateTime">
+                <h3>Select Prank Date & Time</h3>
+                <label for="eventDate">Date:</label>
+                <input type="date" id="eventDate" name="eventDate" required>
+            </div>
+
+            <!-- Select ticket -->
+            <div class="momType">
+                <h2>"Mamma" type</h2>
+                <label for="tickettype">Choose the best desciption for you Mamma</label>
+                <select name="type" id="mothertype">
+                    <option value="defaultType" selected disabled>--Type--</option>
+                    <option value="Cougar">Cougar</option>            
+                    <option value="happilyMarried">Happily Married</option>
+                    <option value="Senior">Old</option>
+                    <option value="StayAtHome">Stay at home mom</option>
+                    <option value="Stacy">Stacy's mom</option>
+                    <option value="Young">Teen mom</option>
+                </select>
+            </div>
+
+            <!-- Amount -->
+            <div class="typeOfPrank">
+                <label for="TypeOfPrank">Type of prank</label>
+                <select name="type" id="pranktype">
+                    <option value="defaultPrank" selected disabled>--Prank--</option>
+                    <option value="1">Mild</option>
+                    <option value="2">Horrific</option>
+                    <option value="3">Life changing(bad)</option>
+                    <option value="4">Funny</option>
+                    <option value="5">Sad</option>
+                    <option value="6">Life changing(good)</option>
+                    <option value="7">Fake death</option>
+                </select>
+            </div>
+        </div>
+
+                <!-- Info about spesial usage -->
+        <div class="checkboxes">
+            <label for="MomUse">Does you Ma use any of the following:</label><br>
+            <div id="MomUse">
+                <input type="checkbox" id="wheelchair">Wheelchair
+                <input type="checkbox" id="birthcontrol">Birthcontrol
+                <input type="checkbox" id="braces">Braces
+                <input type="checkbox" id="fakeNails">Fake Nails
+                <input type="checkbox" id="painkillers">Painkillers
+            </div>
+            <label for="MomHave">Does your Ma have any of the following:</label><br>
+            <div id="MomHave">
+        <!-- Info about any statuses -->
+                <input type="checkbox" id="allergies">Allergies
+                <input type="checkbox" id="badBack">A Bad Back
+                <input type="checkbox" id="gotItGoingOn">"Got It Going On"
+                <input type="checkbox" id="alwaysRight">Always Right
+                <input type="checkbox" id="badBreath">Bad Breath
+                <input type="checkbox" id="IToldYouSo">"I Told You So" gene
+        
+            </div>
+        </div>
+
+        <div class="end">
+            <div class="comments">
+                <!-- Comments -->
+                <label for="Comments">Comments</label>
+                <textarea name="" id="commentBox" cols="30" rows="10" resize="none"></textarea>
+            </div>
+            <div class="pay">
+                <img src="https://i.ytimg.com/vi/WBmWYOmvgTM/sddefault.jpg" alt="Stewie Griffin saying mom">
+                <!-- PayButton -->
+                <button>Payment & Booking</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
